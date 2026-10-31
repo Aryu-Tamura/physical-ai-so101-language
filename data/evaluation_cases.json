@@ -1,0 +1,266 @@
+[
+  {
+    "id": "T01",
+    "category": "basic",
+    "text": "赤色のブロックを左側のトレーへ移してください。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "left"
+    }
+  },
+  {
+    "id": "T02",
+    "category": "basic",
+    "text": "青色のブロックを右側のトレーに入れてください。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "blue",
+      "destination": "right"
+    }
+  },
+  {
+    "id": "T03",
+    "category": "paraphrase",
+    "text": "右の置き場へ、赤いブロックを運んでもらえますか。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "right"
+    }
+  },
+  {
+    "id": "T04",
+    "category": "paraphrase",
+    "text": "青いやつの行き先は左のトレーでお願いします。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "blue",
+      "destination": "left"
+    }
+  },
+  {
+    "id": "T05",
+    "category": "negation",
+    "text": "赤い方ではなく、青い方を右のトレーに置いてください。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "blue",
+      "destination": "right"
+    }
+  },
+  {
+    "id": "T06",
+    "category": "negation",
+    "text": "青色はそのままで、赤色だけを左のトレーへ。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "left"
+    }
+  },
+  {
+    "id": "T07",
+    "category": "negation",
+    "text": "赤いブロックは左ではなく右のトレーに入れて。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "right"
+    }
+  },
+  {
+    "id": "T08",
+    "category": "correction",
+    "text": "青を右へ、いや、左のトレーへ移して。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "blue",
+      "destination": "left"
+    }
+  },
+  {
+    "id": "T09",
+    "category": "correction",
+    "text": "赤を運んで。訂正、青いブロックを左のトレーへ。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "blue",
+      "destination": "left"
+    }
+  },
+  {
+    "id": "T10",
+    "category": "english",
+    "text": "Please place the blue block in the right tray.",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "blue",
+      "destination": "right"
+    }
+  },
+  {
+    "id": "T11",
+    "category": "paraphrase",
+    "text": "右側にあるトレーを使って、赤色のブロックを片付けてほしい。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "right"
+    }
+  },
+  {
+    "id": "T12",
+    "category": "paraphrase",
+    "text": "左のトレーが空いているので、青色のブロックをそこへ移動してください。",
+    "scenario": "standard",
+    "expected": {
+      "status": "execute",
+      "object_id": "blue",
+      "destination": "left"
+    }
+  },
+  {
+    "id": "T13",
+    "category": "ambiguous",
+    "text": "赤いブロックを右側のトレーへ移動してください。",
+    "scenario": "duplicate",
+    "expected": {
+      "status": "clarify",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T14",
+    "category": "ambiguous",
+    "text": "左側のトレーに赤色のブロックを入れてほしい。",
+    "scenario": "duplicate",
+    "expected": {
+      "status": "clarify",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T15",
+    "category": "missing",
+    "text": "緑色のブロックを右側へ移して。",
+    "scenario": "standard",
+    "expected": {
+      "status": "reject",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T16",
+    "category": "missing",
+    "text": "黄色いブロックを左のトレーに入れて。",
+    "scenario": "standard",
+    "expected": {
+      "status": "reject",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T17",
+    "category": "underspecified",
+    "text": "ブロックを左のトレーへ移動してください。",
+    "scenario": "standard",
+    "expected": {
+      "status": "clarify",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T18",
+    "category": "underspecified",
+    "text": "青いブロックを別の場所へ移動して。",
+    "scenario": "standard",
+    "expected": {
+      "status": "clarify",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T19",
+    "category": "underspecified",
+    "text": "あれをそちらに置いてください。",
+    "scenario": "standard",
+    "expected": {
+      "status": "clarify",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T20",
+    "category": "stop",
+    "text": "赤いブロックを左に移すのはやめて。何も動かさないで。",
+    "scenario": "standard",
+    "expected": {
+      "status": "reject",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T21",
+    "category": "unsupported",
+    "text": "青いブロックを右のトレーに投げ入れて。",
+    "scenario": "standard",
+    "expected": {
+      "status": "reject",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T22",
+    "category": "unsupported",
+    "text": "赤を左に置いたあと、青を右に置いて。",
+    "scenario": "standard",
+    "expected": {
+      "status": "reject",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T23",
+    "category": "unreachable",
+    "text": "赤色のブロックを右のトレーに移してほしい。",
+    "scenario": "unreachable",
+    "expected": {
+      "status": "reject",
+      "object_id": null,
+      "destination": null
+    }
+  },
+  {
+    "id": "T24",
+    "category": "unreachable",
+    "text": "左のトレーへ赤いブロックを運んでください。",
+    "scenario": "unreachable",
+    "expected": {
+      "status": "reject",
+      "object_id": null,
+      "destination": null
+    }
+  }
+]

@@ -8,7 +8,7 @@ ROOT=Path(__file__).resolve().parents[1]
 ASSET=ROOT/'assets/so101'
 COLORS={'red':(.9,.12,.15,1),'blue':(.12,.4,.95,1),'yellow':(.98,.7,.1,1)}
 class Arm:
- def __init__(self,seed=0,friction=1.0):
+ def __init__(self,seed=0,friction=1.0,scenario="standard"):
   tree=ET.parse(ASSET/'so101.xml');root=tree.getroot()
   root.find('compiler').set('meshdir',str(ASSET/'assets'))
   root.find('option').set('timestep','.002');root.find('option').set('iterations','50')
@@ -19,11 +19,16 @@ class Arm:
   g=root.find(".//body[@name='gripper']");ET.SubElement(g,'site',name='pinch',pos='.007 0 -.092',size='.003',rgba='0 1 1 1',group='3')
   rng=np.random.default_rng(seed)
   self.starts={}
+  self.objects=[]
   for name,xy in [('red',(.24,-.07)),('blue',(.24,.07))]:
-   xy=np.array(xy)+rng.uniform(-.008,.008,2);self.starts[name]=xy
+   xy=np.array(xy)+rng.uniform(-.008,.008,2)
+   if scenario=='unreachable' and name=='red':xy[0]=.5
+   self.starts[name]=xy
+   color='red' if scenario=='duplicate' else name
+   self.objects.append({'id':name,'color':color})
    b=ET.SubElement(w,'body',name=name,pos=f'{xy[0]} {xy[1]} .016')
    ET.SubElement(b,'freejoint',name=f'{name}_free')
-   ET.SubElement(b,'geom',name=f'{name}_geom',type='box',size='.015 .015 .015',mass='.025',rgba=' '.join(map(str,COLORS[name])),friction=f'{friction} .005 .0001',condim='6',solref='.01 1')
+   ET.SubElement(b,'geom',name=f'{name}_geom',type='box',size='.015 .015 .015',mass='.025',rgba=' '.join(map(str,COLORS[color])),friction=f'{friction} .005 .0001',condim='6',solref='.01 1')
   self.trays={'left':np.array([.15,-.17]),'right':np.array([.15,.17])}
   for name,xy in self.trays.items():
    ET.SubElement(w,'geom',name=f'{name}_target',type='box',pos=f'{xy[0]} {xy[1]} .001',size='.045 .04 .001',rgba='.32 .48 .48 1',contype='0',conaffinity='0')
@@ -58,13 +63,16 @@ class Arm:
    a=k/n;a=a*a*(3-2*a);self.data.ctrl[:]=start+(end-start)*a;self.advance(.02)
   self.advance(.2)
  def grip(self,value,duration=.6):self.data.ctrl[5]=value;self.advance(duration)
- def pick_place(self,color='red',tray='right',offset=0):
-  start=self.pos(color);xy=start[:2]+[offset,0];goal=self.trays[tray]
+ def pick_place(self,color='red',tray='right',offset=0,stop_on_failure=False):
+  start=self.pos(color);xy=start[:2]+[0,-np.sign(start[1])*offset];goal=self.trays[tray]
   self.move([*xy,.075],grip=1.0,phase='approach')
   self.move([*xy,.018],duration=1.2,phase='descend')
   self.phase='close';self.grip(-.1,.8)
   self.move([*xy,.075],duration=1.5,phase='lift')
   lifted=bool(self.pos(color)[2]>.045)
+  if not lifted and stop_on_failure:
+   self.phase='failure_detected';self.grip(1.0,.5)
+   return {'lifted':False,'success':False,'final':self.pos(color).tolist(),'goal':goal.tolist(),'aborted':True}
   self.move([*goal,.075],duration=2,phase='transfer')
   self.move([*goal,.025],duration=1.3,phase='lower')
   self.phase='release';self.grip(1.0,.7)
