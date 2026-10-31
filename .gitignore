@@ -8,3 +8,5 @@ outputs/raw/
 outputs/frames/
 *.mp4
 *.log
+outputs/probe*
+outputs/model_download.log
