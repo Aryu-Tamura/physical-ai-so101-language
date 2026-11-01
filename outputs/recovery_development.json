@@ -1,0 +1,84 @@
+[
+  {
+    "color": "red",
+    "recovery": false,
+    "first": {
+      "lifted": false,
+      "success": false,
+      "final": [
+        0.2428210053361569,
+        -0.07813569365391479,
+        0.014938798431985386
+      ],
+      "goal": [
+        0.15,
+        0.17
+      ]
+    }
+  },
+  {
+    "color": "red",
+    "recovery": true,
+    "first": {
+      "lifted": false,
+      "success": false,
+      "final": [
+        0.2428210053361569,
+        -0.07813569365391479,
+        0.014938798431985383
+      ],
+      "goal": [
+        0.15,
+        0.17
+      ],
+      "aborted": true
+    },
+    "retry": {
+      "lifted": true,
+      "success": true,
+      "final": [
+        0.14725215699548083,
+        0.17120412497036586,
+        0.014938798431985359
+      ],
+      "goal": [
+        0.15,
+        0.17
+      ]
+    }
+  },
+  {
+    "color": "blue",
+    "recovery": false,
+    "first": {
+      "lifted": true,
+      "success": true,
+      "final": [
+        0.14913522978886085,
+        0.17016009679866462,
+        0.014938798431985378
+      ],
+      "goal": [
+        0.15,
+        0.17
+      ]
+    }
+  },
+  {
+    "color": "blue",
+    "recovery": true,
+    "first": {
+      "lifted": true,
+      "success": true,
+      "final": [
+        0.14913522978886085,
+        0.17016009679866462,
+        0.014938798431985378
+      ],
+      "goal": [
+        0.15,
+        0.17
+      ]
+    }
+  }
+]

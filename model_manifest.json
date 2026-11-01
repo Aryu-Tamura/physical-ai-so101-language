@@ -1,0 +1,7 @@
+{
+  "repo_id": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "local_path": "models/qwen3-4b",
+  "quantization": "4-bit",
+  "download": "qwen3-4b"
+}

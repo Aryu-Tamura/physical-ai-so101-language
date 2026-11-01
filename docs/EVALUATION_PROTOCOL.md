@@ -25,3 +25,6 @@ Paired with/without lift feedback, red/blue blocks, left/right goals, held-out s
 
 ## Limits
 Synthetic two-block world, fixed shape/mass, flat goal markers, +/-8 mm initial position randomization, ground-truth scene information, no people or real hardware. Report actual observed failures, do not equate success here with industrial readiness.
+
+### Development prompt revision (before any held-out evaluation)
+Six development instructions exposed a negation error ("青ではなく赤" -> blue) and inconsistent missing-field/stop actions with English instructions. Replaced the system prompt with Japanese rules and four development examples; retained raw v1 results in outputs/language_development_v1.json. Evaluation instructions were not used to tune this revision. The definitive system prompt is hashed in the inference cache. This is in-context prompting, not model training.

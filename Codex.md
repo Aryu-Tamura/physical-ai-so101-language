@@ -36,3 +36,13 @@ Fetch pinned SO-101 assets; create isolated environment; inspect joint/gripper g
 - Left/right defined from human viewpoint facing the robot (+x side): left=y negative, right=y positive. Tray graphics are flat goal markers, not physical bins.
 - Probe video visually inspected at approach/lift/place; matching object motion verified numerically.
 - Language model download still in progress. Next: semantic parser and held-out cases; then integrated evaluation.
+
+## Checkpoint 2 — language and recovery
+- GitHub created and pushed: https://github.com/Aryu-Tamura/physical-ai-so101-language
+- Local model downloaded: mlx-community/Qwen3-4B-Instruct-2507-4bit at 50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b. ~2.1 GB, MLX GPU inference.
+- Development prompt v1 failed negation. v2 Japanese instructions + four development examples; v1 raw output retained. Final dataset not yet evaluated at this checkpoint.
+- Held-out recovery trials (seeds 10–12; red/blue; left/right): 0 offset 12/12 with and without feedback. 3.5 cm transient offset: without feedback 6/12, with one retry 12/12, six retries. All details outputs/recovery/.
+- Recovery uses simulator truth for re-observation. Do not claim a camera or persistent calibration correction.
+- 24 held-out instructions and expected decisions frozen in data/evaluation_cases.json. Comparison: keyword+checks, LLM without uniqueness/reachability checks, LLM+checks. Three scene seeds; shared deterministic LLM intents across seeds/conditions.
+- src/pipeline.py checks reachable workspace before motion, executes and logs attempts.
+- Next: finish language dev run, run final evaluation, produce demo CLI and edited video/PDF, independent reproduction and artifact validation.

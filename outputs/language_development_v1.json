@@ -1,0 +1,63 @@
+[
+  {
+    "text": "赤いブロックを右のトレーに置いて。",
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": "right"
+    },
+    "raw": "{\"action\":\"move\", \"color\":\"red\", \"destination\":\"right\"}",
+    "latency_s": 4.239802291966043
+  },
+  {
+    "text": "青ではなく赤を左に運んで。",
+    "intent": {
+      "action": "move",
+      "color": "blue",
+      "destination": "left"
+    },
+    "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":\"left\"}",
+    "latency_s": 4.271762375021353
+  },
+  {
+    "text": "赤いのを取って。",
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": null
+    },
+    "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":null}",
+    "latency_s": 4.265889041940682
+  },
+  {
+    "text": "青を右に移動しないで。",
+    "intent": {
+      "action": "clarify",
+      "color": "blue",
+      "destination": null
+    },
+    "raw": "{\"action\":\"clarify\", \"color\":\"blue\", \"destination\":null}",
+    "latency_s": 2.6495627079857513
+  },
+  {
+    "text": "緑のブロックを左に運んで。",
+    "intent": {
+      "action": "move",
+      "color": "green",
+      "destination": "left"
+    },
+    "raw": "{\"action\":\"move\", \"color\":\"green\", \"destination\":\"left\"}",
+    "latency_s": 2.448395833023824
+  },
+  {
+    "text": "赤いブロックを右に置いて。それから青も左へ。",
+    "intent": {
+      "action": "reject",
+      "color": null,
+      "destination": null,
+      "parse_error": true
+    },
+    "raw": "{\"action\": \"move\", \"color\": \"red\", \"destination\": \"right\"}, {\"action\": \"move\", \"color\": \"blue\", \"destination\": \"left\"}",
+    "latency_s": 4.399498249986209
+  }
+]
