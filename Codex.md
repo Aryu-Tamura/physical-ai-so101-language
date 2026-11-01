@@ -1,3 +1,14 @@
+# Latest status — implementation and deliverables complete
+
+- Working project: this directory. Public repository: https://github.com/Aryu-Tamura/physical-ai-so101-language
+- Read START_HERE.md first; report output/pdf/physical_ai_so101_report.pdf (4 pages), video outputs/final_demo.mp4 (136 s).
+- Public source b7f2eea independently cloned: all 216 instruction +48 recovery trajectories byte-identical. Same Mac/dependencies, cached evaluation LLM outputs; separate live CLI inference also succeeded.
+- 7 tests passed on Mac and GitHub Linux CI. PDF all pages and video chapter frames visually inspected; video fully decoded.
+- Verified full system69/72, normal tasks36/36; remaining T17 null-color clarification/rejection error is disclosed. Recovery6/12→12/12 for transient35mm error only.
+- No audio/vision/real hardware. Do not claim otherwise. No ongoing simulation/training required.
+- GitHub release pending creation immediately after this checkpoint; check release v1.0.0. YouTube/Omnicampus not submitted; user account ID and user review remain.
+- Verification details VERIFICATION.md; per-stage scripts and data retained. Prior notes below are historical.
+
 # Text-command SO-101 experiment — persistent handoff
 
 ## User authorization / scope

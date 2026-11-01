@@ -1,0 +1,10 @@
+{
+  "evaluation": {
+    "summary_equal": true,
+    "byte_identical_trajectories": 216
+  },
+  "recovery": {
+    "summary_equal": true,
+    "byte_identical_trajectories": 48
+  }
+}

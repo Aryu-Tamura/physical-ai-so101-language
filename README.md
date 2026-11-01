@@ -24,6 +24,7 @@
 - [固定した評価条件](docs/EVALUATION_PROTOCOL.md)
 - [朝の理解・確認手順](docs/LEARNING_GUIDE.md)
 - [実機移行メモ（提出外）](docs/SIM_TO_REAL.md)
+- [検証記録](VERIFICATION.md)
 - [継続用メモ](Codex.md)
 
 ## Macで再実行
