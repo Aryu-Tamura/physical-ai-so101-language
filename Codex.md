@@ -46,3 +46,15 @@ Fetch pinned SO-101 assets; create isolated environment; inspect joint/gripper g
 - 24 held-out instructions and expected decisions frozen in data/evaluation_cases.json. Comparison: keyword+checks, LLM without uniqueness/reachability checks, LLM+checks. Three scene seeds; shared deterministic LLM intents across seeds/conditions.
 - src/pipeline.py checks reachable workspace before motion, executes and logs attempts.
 - Next: finish language dev run, run final evaluation, produce demo CLI and edited video/PDF, independent reproduction and artifact validation.
+
+## Checkpoint 3 — final experiments and artifacts
+- Evaluation completed: keyword_checked 48/72 (execute21/36, nonexecute27/36); llm_unchecked57/72 (36/36,21/36); llm_checked69/72 (36/36,33/36). Unwanted execution starts: 9 /12 /0. Unreachable unchecked attempts stop at IK before physical arm motion.
+- Remaining failure T17: unspecified color -> LLM move/null -> guard rejects instead of clarifying. Preserved transparently, not patched using test-set answers.
+- 216 instruction trials +48 recovery trials recorded; 7 focused unit tests passed. Local inference24 examples: median5.82s, min3.32,max8.59, excludes model loading.
+- scripts/record_examples.py replays measured model outputs and reruns actual physics for video; src/visuals.py labels this explicitly. demo.py uses fresh live inference.
+- Four-page PDF generated and all pages visually inspected; no overflow. Final MP4 136 seconds,3400frames,25fps, silent with Japanese captions. Keyword failure clip label clarified as physical success but instruction mismatch (video rebuilding).
+- START_HERE.md / SUBMISSION.md / docs/LEARNING_GUIDE.md and SIM_TO_REAL.md created. Account ID, YouTube upload and Omnicampus submission remain user actions.
+- Remaining: verify final video frames/decode, live CLI smoke, formatting, clean public clone reproduction, CI, final GitHub push/release, update final handoff.
+- Final MP4 chapter frames visually checked (title, wrong-object action, ambiguity, failure, recovery, both charts, limitations). Caption distinguishes successful physical placement from incorrect instruction execution.
+- Live demo.py path tested with fresh LLM inference (not cached); red-block placement succeeded for a negated-color instruction, producing latest_demo.mp4/json.
+- Code formatted with Ruff; unit tests still pass. PDF text now also states 69/72 outside the plotted image so machine-readable validation can check it.

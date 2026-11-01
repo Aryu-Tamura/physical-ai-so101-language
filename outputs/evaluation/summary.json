@@ -1,0 +1,32 @@
+{
+  "keyword_checked": {
+    "n": 72,
+    "decision_correct": 48,
+    "end_to_end_correct": 48,
+    "executable_n": 36,
+    "executable_success": 21,
+    "non_executable_n": 36,
+    "non_executable_correct": 27,
+    "unwanted_executions": 9
+  },
+  "llm_unchecked": {
+    "n": 72,
+    "decision_correct": 57,
+    "end_to_end_correct": 57,
+    "executable_n": 36,
+    "executable_success": 36,
+    "non_executable_n": 36,
+    "non_executable_correct": 21,
+    "unwanted_executions": 12
+  },
+  "llm_checked": {
+    "n": 72,
+    "decision_correct": 69,
+    "end_to_end_correct": 69,
+    "executable_n": 36,
+    "executable_success": 36,
+    "non_executable_n": 36,
+    "non_executable_correct": 33,
+    "unwanted_executions": 0
+  }
+}

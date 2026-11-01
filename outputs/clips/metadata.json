@@ -1,0 +1,344 @@
+[
+  {
+    "name": "basic",
+    "case_id": "T03",
+    "seed": 10,
+    "method": "llm_checked",
+    "offset_m": 0,
+    "recovery": false,
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": "right"
+    },
+    "decision": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "right",
+      "reason": "unique_match"
+    },
+    "result": {
+      "executed": true,
+      "success": true,
+      "attempts": 1,
+      "attempt_results": [
+        {
+          "lifted": true,
+          "success": true,
+          "final": [
+            0.14662409543858734,
+            0.17048121246963865,
+            0.014938798431985392
+          ],
+          "goal": [
+            0.15,
+            0.17
+          ]
+        }
+      ],
+      "error": null,
+      "finite": true,
+      "other_displacement_m": 7.534459167679586e-13,
+      "sim_duration_s": 11.800000000000777,
+      "wall_duration_s": 10.913328708033077
+    },
+    "frames": 395,
+    "duration_s": 15.8
+  },
+  {
+    "name": "llm_negation",
+    "case_id": "T05",
+    "seed": 10,
+    "method": "llm_checked",
+    "offset_m": 0,
+    "recovery": false,
+    "intent": {
+      "action": "move",
+      "color": "blue",
+      "destination": "right"
+    },
+    "decision": {
+      "status": "execute",
+      "object_id": "blue",
+      "destination": "right",
+      "reason": "unique_match"
+    },
+    "result": {
+      "executed": true,
+      "success": true,
+      "attempts": 1,
+      "attempt_results": [
+        {
+          "lifted": true,
+          "success": true,
+          "final": [
+            0.14897206815812122,
+            0.17367350482875638,
+            0.014938798431985374
+          ],
+          "goal": [
+            0.15,
+            0.17
+          ]
+        }
+      ],
+      "error": null,
+      "finite": true,
+      "other_displacement_m": 7.534424473210066e-13,
+      "sim_duration_s": 11.800000000000777,
+      "wall_duration_s": 6.926120583899319
+    },
+    "frames": 395,
+    "duration_s": 15.8
+  },
+  {
+    "name": "ambiguous_unchecked",
+    "case_id": "T13",
+    "seed": 10,
+    "method": "llm_unchecked",
+    "offset_m": 0,
+    "recovery": false,
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": "right"
+    },
+    "decision": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "right",
+      "reason": "first_match_unchecked"
+    },
+    "result": {
+      "executed": true,
+      "success": true,
+      "attempts": 1,
+      "attempt_results": [
+        {
+          "lifted": true,
+          "success": true,
+          "final": [
+            0.14662409543858734,
+            0.17048121246963865,
+            0.014938798431985392
+          ],
+          "goal": [
+            0.15,
+            0.17
+          ]
+        }
+      ],
+      "error": null,
+      "finite": true,
+      "other_displacement_m": 7.534459167679586e-13,
+      "sim_duration_s": 11.800000000000777,
+      "wall_duration_s": 6.464979209005833
+    },
+    "frames": 395,
+    "duration_s": 15.8
+  },
+  {
+    "name": "ambiguous_checked",
+    "case_id": "T13",
+    "seed": 10,
+    "method": "llm_checked",
+    "offset_m": 0,
+    "recovery": false,
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": "right"
+    },
+    "decision": {
+      "status": "clarify",
+      "reason": "ambiguous_object"
+    },
+    "result": {
+      "executed": false,
+      "success": false,
+      "attempts": 0,
+      "sim_duration_s": 0.0,
+      "wall_duration_s": 0.0
+    },
+    "frames": 200,
+    "duration_s": 8.0
+  },
+  {
+    "name": "unreachable",
+    "case_id": "T23",
+    "seed": 10,
+    "method": "llm_checked",
+    "offset_m": 0,
+    "recovery": false,
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": "right"
+    },
+    "decision": {
+      "status": "reject",
+      "reason": "outside_workspace"
+    },
+    "result": {
+      "executed": false,
+      "success": false,
+      "attempts": 0,
+      "sim_duration_s": 0.0,
+      "wall_duration_s": 0.0
+    },
+    "frames": 200,
+    "duration_s": 8.0
+  },
+  {
+    "name": "grasp_failure",
+    "case_id": "T03",
+    "seed": 10,
+    "method": "llm_checked",
+    "offset_m": 0.035,
+    "recovery": false,
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": "right"
+    },
+    "decision": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "right",
+      "reason": "unique_match"
+    },
+    "result": {
+      "executed": true,
+      "success": false,
+      "attempts": 1,
+      "attempt_results": [
+        {
+          "lifted": false,
+          "success": false,
+          "final": [
+            0.24791954220299955,
+            -0.07895347940110958,
+            0.014938798431985366
+          ],
+          "goal": [
+            0.15,
+            0.17
+          ]
+        }
+      ],
+      "error": null,
+      "finite": true,
+      "other_displacement_m": 7.534545903853385e-13,
+      "sim_duration_s": 11.800000000000777,
+      "wall_duration_s": 11.156678792089224
+    },
+    "frames": 395,
+    "duration_s": 15.8
+  },
+  {
+    "name": "grasp_recovery",
+    "case_id": "T03",
+    "seed": 10,
+    "method": "llm_checked",
+    "offset_m": 0.035,
+    "recovery": true,
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": "right"
+    },
+    "decision": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "right",
+      "reason": "unique_match"
+    },
+    "result": {
+      "executed": true,
+      "success": true,
+      "attempts": 2,
+      "attempt_results": [
+        {
+          "lifted": false,
+          "success": false,
+          "final": [
+            0.24791954220299955,
+            -0.07895347940110958,
+            0.014938798431985359
+          ],
+          "goal": [
+            0.15,
+            0.17
+          ],
+          "aborted": true
+        },
+        {
+          "lifted": true,
+          "success": true,
+          "final": [
+            0.14729161449233427,
+            0.17125544028821188,
+            0.014938798431985399
+          ],
+          "goal": [
+            0.15,
+            0.17
+          ]
+        }
+      ],
+      "error": null,
+      "finite": true,
+      "other_displacement_m": 7.534580598322904e-13,
+      "sim_duration_s": 17.800000000000736,
+      "wall_duration_s": 12.889634542050771
+    },
+    "frames": 545,
+    "duration_s": 21.8
+  },
+  {
+    "name": "keyword_negation",
+    "case_id": "T05",
+    "seed": 10,
+    "method": "keyword_checked",
+    "offset_m": 0,
+    "recovery": false,
+    "intent": {
+      "action": "move",
+      "color": "red",
+      "destination": "right"
+    },
+    "decision": {
+      "status": "execute",
+      "object_id": "red",
+      "destination": "right",
+      "reason": "unique_match"
+    },
+    "result": {
+      "executed": true,
+      "success": true,
+      "attempts": 1,
+      "attempt_results": [
+        {
+          "lifted": true,
+          "success": true,
+          "final": [
+            0.14662409543858734,
+            0.17048121246963865,
+            0.014938798431985392
+          ],
+          "goal": [
+            0.15,
+            0.17
+          ]
+        }
+      ],
+      "error": null,
+      "finite": true,
+      "other_displacement_m": 7.534459167679586e-13,
+      "sim_duration_s": 11.800000000000777,
+      "wall_duration_s": 4.6272911669220775
+    },
+    "frames": 395,
+    "duration_s": 15.8
+  }
+]

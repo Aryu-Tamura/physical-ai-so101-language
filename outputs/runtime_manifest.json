@@ -1,0 +1,13 @@
+{
+  "platform": "macOS-26.5.2-arm64-arm-64bit",
+  "python": "3.12.10",
+  "hardware": "Apple M3, 16 GB",
+  "file_sha256": {
+    "src/arm.py": "56039231c1dede62e19cb9716e085e313c80b8d08b411be019de18052c408e03",
+    "src/language.py": "dbfd04033bcb28d6443efa70f688a1bc38a27cafe30a3b5a517912810b6b7dba",
+    "src/pipeline.py": "ca3043f0c904389d6272edf88d3434bab19402b54e07230d142d47242ac9aeba",
+    "data/evaluation_cases.json": "5a9c5e1942b1a06d8ff2740c67c696ffe29aa9577e846410b841b255183e73b0",
+    "requirements-lock-macos.txt": "0aa90d8ec72e3a5877405e73da7868d7cc99e3f4234d8d0d3b53590e10c4a9de",
+    "assets/so101/so101.xml": "982c02c027ec0c62d3459d0a6eb00dfb7dc13a451992e72ce99addc71f209805"
+  }
+}

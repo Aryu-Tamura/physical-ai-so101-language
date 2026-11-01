@@ -10,3 +10,7 @@ outputs/frames/
 *.log
 outputs/probe*
 outputs/model_download.log
+output/submission/
+outputs/latest_demo*
+outputs/.matplotlib/
+outputs/reproduced*/

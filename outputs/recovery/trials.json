@@ -1,0 +1,1574 @@
+[
+  {
+    "id": "0_False_10_red_left",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 10,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1515202077716203,
+          -0.1665299235898172,
+          0.01493879843198538
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.23181087500415742
+  },
+  {
+    "id": "0_False_10_red_right",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 10,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14662409543858734,
+          0.17048121246963865,
+          0.014938798431985392
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.2340707080438733
+  },
+  {
+    "id": "0_False_10_blue_left",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 10,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15392732149530997,
+          -0.1710982988071201,
+          0.014938798431985381
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534424473210066e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19962858397047967
+  },
+  {
+    "id": "0_False_10_blue_right",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 10,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14897206815812122,
+          0.17367350482875638,
+          0.014938798431985374
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534424473210066e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19759624998550862
+  },
+  {
+    "id": "0_False_11_red_left",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 11,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15189740379356959,
+          -0.16729831271358075,
+          0.014938798431985372
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.23650854197330773
+  },
+  {
+    "id": "0_False_11_red_right",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 11,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1471757986784436,
+          0.1711311060029909,
+          0.014938798431985388
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.23355529201216996
+  },
+  {
+    "id": "0_False_11_blue_left",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 11,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15388466959164998,
+          -0.17075388578014886,
+          0.014938798431985378
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.1898196249967441
+  },
+  {
+    "id": "0_False_11_blue_right",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 11,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14876967508391215,
+          0.1734385879986422,
+          0.014938798431985395
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19447866606060416
+  },
+  {
+    "id": "0_False_12_red_left",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 12,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15188462576751827,
+          -0.16717057497270132,
+          0.01493879843198536
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.2480087080039084
+  },
+  {
+    "id": "0_False_12_red_right",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 12,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14702119317978754,
+          0.17101807990662943,
+          0.014938798431985395
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.2476242920383811
+  },
+  {
+    "id": "0_False_12_blue_left",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 12,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1536616745492099,
+          -0.17029249990781023,
+          0.0149387984319854
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19205629208590835
+  },
+  {
+    "id": "0_False_12_blue_right",
+    "offset_m": 0,
+    "recovery": false,
+    "seed": 12,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14841469293532242,
+          0.17302774521780573,
+          0.014938798431985383
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.1894804579205811
+  },
+  {
+    "id": "0_True_10_red_left",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 10,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1515202077716203,
+          -0.1665299235898172,
+          0.01493879843198538
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.23298341606277972
+  },
+  {
+    "id": "0_True_10_red_right",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 10,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14662409543858734,
+          0.17048121246963865,
+          0.014938798431985392
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.23653054202441126
+  },
+  {
+    "id": "0_True_10_blue_left",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 10,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15392732149530997,
+          -0.1710982988071201,
+          0.014938798431985381
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534424473210066e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.18894120794720948
+  },
+  {
+    "id": "0_True_10_blue_right",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 10,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14897206815812122,
+          0.17367350482875638,
+          0.014938798431985374
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534424473210066e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.1912936670705676
+  },
+  {
+    "id": "0_True_11_red_left",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 11,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15189740379356959,
+          -0.16729831271358075,
+          0.014938798431985372
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.23639400000683963
+  },
+  {
+    "id": "0_True_11_red_right",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 11,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1471757986784436,
+          0.1711311060029909,
+          0.014938798431985388
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.2387642910471186
+  },
+  {
+    "id": "0_True_11_blue_left",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 11,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15388466959164998,
+          -0.17075388578014886,
+          0.014938798431985378
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.1892590830102563
+  },
+  {
+    "id": "0_True_11_blue_right",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 11,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14876967508391215,
+          0.1734385879986422,
+          0.014938798431985395
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.18901170894969255
+  },
+  {
+    "id": "0_True_12_red_left",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 12,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15188462576751827,
+          -0.16717057497270132,
+          0.01493879843198536
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.24128175002988428
+  },
+  {
+    "id": "0_True_12_red_right",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 12,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14702119317978754,
+          0.17101807990662943,
+          0.014938798431985395
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.2431560839759186
+  },
+  {
+    "id": "0_True_12_blue_left",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 12,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1536616745492099,
+          -0.17029249990781023,
+          0.0149387984319854
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.1898371659917757
+  },
+  {
+    "id": "0_True_12_blue_right",
+    "offset_m": 0,
+    "recovery": true,
+    "seed": 12,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14841469293532242,
+          0.17302774521780573,
+          0.014938798431985383
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.1902780409436673
+  },
+  {
+    "id": "0.035_False_10_red_left",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 10,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": false,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.24791954220299955,
+          -0.07895347940110958,
+          0.014938798431985364
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534528556618625e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.11339491698890924
+  },
+  {
+    "id": "0.035_False_10_red_right",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 10,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": false,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.24791954220299955,
+          -0.07895347940110958,
+          0.014938798431985366
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534545903853385e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.11363429191987962
+  },
+  {
+    "id": "0.035_False_10_blue_left",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 10,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15079918476852702,
+          -0.16992963430990093,
+          0.014938798431985376
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19549291697330773
+  },
+  {
+    "id": "0.035_False_10_blue_right",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 10,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14942057750187077,
+          0.1704748511699784,
+          0.014938798431985395
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534441820444826e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.202600457938388
+  },
+  {
+    "id": "0.035_False_11_red_left",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 11,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": false,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.2346682920525922,
+          -0.07476667252131587,
+          0.014938798431985366
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.11573033395688981
+  },
+  {
+    "id": "0.035_False_11_red_right",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 11,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": false,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.2346682920525922,
+          -0.07476667252131587,
+          0.01493879843198537
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534545903853385e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.11385116702876985
+  },
+  {
+    "id": "0.035_False_11_blue_left",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 11,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15061261247440738,
+          -0.16953721079309497,
+          0.014938798431985392
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.1943494580918923
+  },
+  {
+    "id": "0.035_False_11_blue_right",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 11,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14915081092744098,
+          0.17017645485342023,
+          0.014938798431985399
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19192241702694446
+  },
+  {
+    "id": "0.035_False_12_red_left",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 12,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": false,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.23625705005426223,
+          -0.06766820767534702,
+          0.014938798431985383
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534528556618625e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.11332320899236947
+  },
+  {
+    "id": "0.035_False_12_red_right",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 12,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": false,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.23625705005426223,
+          -0.06766820767534702,
+          0.014938798431985385
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534545903853385e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.11249000008683652
+  },
+  {
+    "id": "0.035_False_12_blue_left",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 12,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1508638920608005,
+          -0.17008358201127585,
+          0.0149387984319854
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19731495901942253
+  },
+  {
+    "id": "0.035_False_12_blue_right",
+    "offset_m": 0.035,
+    "recovery": false,
+    "seed": 12,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1495020204662034,
+          0.17058739992242306,
+          0.014938798431985381
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19312637497205287
+  },
+  {
+    "id": "0.035_True_10_red_left",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 10,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 2,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.24791954220299955,
+          -0.07895347940110958,
+          0.014938798431985359
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ],
+        "aborted": true
+      },
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1519457497048409,
+          -0.1674134302498754,
+          0.014938798431985393
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 17.800000000000736,
+    "wall_duration_s": 0.29781458294019103
+  },
+  {
+    "id": "0.035_True_10_red_right",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 10,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 2,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.24791954220299955,
+          -0.07895347940110958,
+          0.014938798431985359
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ],
+        "aborted": true
+      },
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14729161449233427,
+          0.17125544028821188,
+          0.014938798431985399
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534580598322904e-13,
+    "sim_duration_s": 17.800000000000736,
+    "wall_duration_s": 0.30219016689807177
+  },
+  {
+    "id": "0.035_True_10_blue_left",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 10,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15079918476852702,
+          -0.16992963430990093,
+          0.014938798431985376
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19412429200019687
+  },
+  {
+    "id": "0.035_True_10_blue_right",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 10,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14942057750187077,
+          0.1704748511699784,
+          0.014938798431985395
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534441820444826e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19530862499959767
+  },
+  {
+    "id": "0.035_True_11_red_left",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 11,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 2,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.2346682920525922,
+          -0.07476667252131587,
+          0.014938798431985364
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ],
+        "aborted": true
+      },
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15254747934597038,
+          -0.16936988846182935,
+          0.014938798431985385
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534528556618625e-13,
+    "sim_duration_s": 17.800000000000736,
+    "wall_duration_s": 0.31382145802490413
+  },
+  {
+    "id": "0.035_True_11_red_right",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 11,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 2,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.2346682920525922,
+          -0.07476667252131587,
+          0.014938798431985364
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ],
+        "aborted": true
+      },
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14881665545355124,
+          0.17264626380394962,
+          0.01493879843198536
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534528556618625e-13,
+    "sim_duration_s": 17.800000000000736,
+    "wall_duration_s": 0.31490970798768103
+  },
+  {
+    "id": "0.035_True_11_blue_left",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 11,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.15061261247440738,
+          -0.16953721079309497,
+          0.014938798431985392
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19339995901100338
+  },
+  {
+    "id": "0.035_True_11_blue_right",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 11,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14915081092744098,
+          0.17017645485342023,
+          0.014938798431985399
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534459167679586e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.1917627080110833
+  },
+  {
+    "id": "0.035_True_12_red_left",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 12,
+    "color": "red",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 2,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.23625705005426223,
+          -0.06766820767534702,
+          0.014938798431985383
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ],
+        "aborted": true
+      },
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1517953388128565,
+          -0.1670387271890045,
+          0.014938798431985388
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534528556618625e-13,
+    "sim_duration_s": 17.800000000000736,
+    "wall_duration_s": 0.29446629201993346
+  },
+  {
+    "id": "0.035_True_12_red_right",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 12,
+    "color": "red",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 2,
+    "attempt_results": [
+      {
+        "lifted": false,
+        "success": false,
+        "final": [
+          0.23625705005426223,
+          -0.06766820767534702,
+          0.014938798431985383
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ],
+        "aborted": true
+      },
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.14695909791213055,
+          0.17091315712518523,
+          0.014938798431985374
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534528556618625e-13,
+    "sim_duration_s": 17.800000000000736,
+    "wall_duration_s": 0.29497766692657024
+  },
+  {
+    "id": "0.035_True_12_blue_left",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 12,
+    "color": "blue",
+    "tray": "left",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1508638920608005,
+          -0.17008358201127585,
+          0.0149387984319854
+        ],
+        "goal": [
+          0.15,
+          -0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534476514914346e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19667125004343688
+  },
+  {
+    "id": "0.035_True_12_blue_right",
+    "offset_m": 0.035,
+    "recovery": true,
+    "seed": 12,
+    "color": "blue",
+    "tray": "right",
+    "executed": true,
+    "success": true,
+    "attempts": 1,
+    "attempt_results": [
+      {
+        "lifted": true,
+        "success": true,
+        "final": [
+          0.1495020204662034,
+          0.17058739992242306,
+          0.014938798431985381
+        ],
+        "goal": [
+          0.15,
+          0.17
+        ]
+      }
+    ],
+    "error": null,
+    "finite": true,
+    "other_displacement_m": 7.534563251088144e-13,
+    "sim_duration_s": 11.800000000000777,
+    "wall_duration_s": 0.19482879096176475
+  }
+]

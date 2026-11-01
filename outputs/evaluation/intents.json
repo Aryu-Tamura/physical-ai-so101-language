@@ -1,0 +1,222 @@
+{
+  "prompt_sha256": "51d4828c594c06d6763c86fe0bd0db9e3f2105fa1c4ffc0b7bab32bea2ad181b",
+  "dataset_sha256": "5a9c5e1942b1a06d8ff2740c67c696ffe29aa9577e846410b841b255183e73b0",
+  "results": {
+    "T01": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"left\"}",
+      "latency_s": 8.592516000033356
+    },
+    "T02": {
+      "intent": {
+        "action": "move",
+        "color": "blue",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":\"right\"}",
+      "latency_s": 5.870867916964926
+    },
+    "T03": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"right\"}",
+      "latency_s": 5.776534624979831
+    },
+    "T04": {
+      "intent": {
+        "action": "move",
+        "color": "blue",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":\"left\"}",
+      "latency_s": 6.678808541968465
+    },
+    "T05": {
+      "intent": {
+        "action": "move",
+        "color": "blue",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":\"right\"}",
+      "latency_s": 7.089900541002862
+    },
+    "T06": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"left\"}",
+      "latency_s": 7.70688416599296
+    },
+    "T07": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"right\"}",
+      "latency_s": 6.425491000059992
+    },
+    "T08": {
+      "intent": {
+        "action": "move",
+        "color": "blue",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":\"left\"}",
+      "latency_s": 6.631883625057526
+    },
+    "T09": {
+      "intent": {
+        "action": "move",
+        "color": "blue",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":\"left\"}",
+      "latency_s": 6.596756624989212
+    },
+    "T10": {
+      "intent": {
+        "action": "move",
+        "color": "blue",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":\"right\"}",
+      "latency_s": 6.807720124954358
+    },
+    "T11": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"right\"}",
+      "latency_s": 6.794576208922081
+    },
+    "T12": {
+      "intent": {
+        "action": "move",
+        "color": "blue",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":\"left\"}",
+      "latency_s": 7.447577540995553
+    },
+    "T13": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"right\"}",
+      "latency_s": 7.0125202080234885
+    },
+    "T14": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"left\"}",
+      "latency_s": 4.338237917050719
+    },
+    "T15": {
+      "intent": {
+        "action": "move",
+        "color": "green",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"green\",\"destination\":\"right\"}",
+      "latency_s": 3.456040499964729
+    },
+    "T16": {
+      "intent": {
+        "action": "move",
+        "color": "yellow",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"yellow\",\"destination\":\"left\"}",
+      "latency_s": 3.321200167061761
+    },
+    "T17": {
+      "intent": {
+        "action": "move",
+        "color": null,
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":null,\"destination\":\"left\"}",
+      "latency_s": 3.4575342079624534
+    },
+    "T18": {
+      "intent": {
+        "action": "move",
+        "color": "blue",
+        "destination": null
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"blue\",\"destination\":null}",
+      "latency_s": 3.497673959005624
+    },
+    "T19": {
+      "intent": {
+        "action": "clarify",
+        "color": null,
+        "destination": null
+      },
+      "raw": "{\"action\":\"clarify\",\"color\":null,\"destination\":null}",
+      "latency_s": 3.492197374929674
+    },
+    "T20": {
+      "intent": {
+        "action": "reject",
+        "color": "red",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"reject\",\"color\":\"red\",\"destination\":\"left\"}",
+      "latency_s": 3.516732625081204
+    },
+    "T21": {
+      "intent": {
+        "action": "reject",
+        "color": "blue",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"reject\",\"color\":\"blue\",\"destination\":\"right\"}",
+      "latency_s": 3.4382434589788318
+    },
+    "T22": {
+      "intent": {
+        "action": "reject",
+        "color": "red",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"reject\",\"color\":\"red\",\"destination\":\"left\"}",
+      "latency_s": 3.4473706249846146
+    },
+    "T23": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "right"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"right\"}",
+      "latency_s": 3.496249624993652
+    },
+    "T24": {
+      "intent": {
+        "action": "move",
+        "color": "red",
+        "destination": "left"
+      },
+      "raw": "{\"action\":\"move\",\"color\":\"red\",\"destination\":\"left\"}",
+      "latency_s": 3.440583333023824
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "offset_m": 0,
+    "recovery": false,
+    "n": 12,
+    "success": 12,
+    "retries": 0
+  },
+  {
+    "offset_m": 0,
+    "recovery": true,
+    "n": 12,
+    "success": 12,
+    "retries": 0
+  },
+  {
+    "offset_m": 0.035,
+    "recovery": false,
+    "n": 12,
+    "success": 6,
+    "retries": 0
+  },
+  {
+    "offset_m": 0.035,
+    "recovery": true,
+    "n": 12,
+    "success": 12,
+    "retries": 6
+  }
+]

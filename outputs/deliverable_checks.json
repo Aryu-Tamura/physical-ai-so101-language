@@ -1,0 +1,16 @@
+{
+  "pdf_pages": 4,
+  "video_frames": 3400,
+  "video_seconds": 136.0,
+  "video_audio": false,
+  "files": {
+    "output/pdf/physical_ai_so101_report.pdf": {
+      "bytes": 349204,
+      "sha256": "b3fbfc8daeca59bf5e5f7b3a2f558809316fa28e72c0a445c43b46a770a00e8c"
+    },
+    "outputs/final_demo.mp4": {
+      "bytes": 7529388,
+      "sha256": "7c5edf9f5dc927b606b7a70329905fc989faca1040b88d53f1c3762177f75a21"
+    }
+  }
+}

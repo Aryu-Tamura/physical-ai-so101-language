@@ -1,0 +1,58 @@
+{
+  "fps": 25,
+  "frames": 3400,
+  "duration_s": 136.0,
+  "audio": false,
+  "playback_speed": 1,
+  "inference": "Recorded real LLM outputs reused; physical simulation rerun",
+  "chapters": [
+    {
+      "title": "言葉が通じても、つかめるとは限らない",
+      "start_s": 0.0
+    },
+    {
+      "clip": "basic",
+      "start_s": 7.0
+    },
+    {
+      "title": "「赤ではなく、青」を理解できる？",
+      "start_s": 22.8
+    },
+    {
+      "clip": "keyword_negation",
+      "start_s": 27.8
+    },
+    {
+      "clip": "llm_negation",
+      "start_s": 43.6
+    },
+    {
+      "clip": "ambiguous_checked",
+      "start_s": 59.4
+    },
+    {
+      "title": "言葉の解釈が正しくても、物理で失敗する",
+      "start_s": 67.4
+    },
+    {
+      "clip": "grasp_failure",
+      "start_s": 72.4
+    },
+    {
+      "clip": "grasp_recovery",
+      "start_s": 88.2
+    },
+    {
+      "title": "位置誤差があるとき：結果確認と再試行の効果",
+      "start_s": 110.0
+    },
+    {
+      "title": "日本語24指示 × 3配置：期待どおりに判断・実行できたか",
+      "start_s": 118.0
+    },
+    {
+      "title": "理解すること、実行できること、確かめること",
+      "start_s": 127.0
+    }
+  ]
+}
